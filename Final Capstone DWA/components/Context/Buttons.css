@@ -1,0 +1,64 @@
+/* For screens smaller than 768px */
+@media (max-width: 767px) {
+  .ButtonCon {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+
+  .searchButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .Sort {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .searchButton SlInput,
+  .searchButton SlButton,
+  .Sort SlButton,
+  .Sort SlMenu {
+    width: 100%;
+    max-width: 300px; /* Adjust the max-width as needed */
+  }
+}
+
+
+
+
+/* For screens 768px and larger */
+@media (min-width: 768px) {
+  .ButtonCon {
+    display: flex;
+    height: 65px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  }
+
+  .searchButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .Sort {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .searchButton SlInput,
+  .searchButton SlButton,
+  .Sort SlButton,
+  .Sort SlMenu {
+    width: auto; /* Set to auto for flexible width on larger screens */
+    max-width: 200px; /* Adjust the max-width as needed */
+  }
+}

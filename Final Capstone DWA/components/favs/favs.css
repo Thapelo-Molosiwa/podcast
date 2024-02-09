@@ -1,0 +1,58 @@
+
+
+/* Card container */
+.podcast-card {
+    
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  /* Card image */
+  .podcast-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+  
+  /* Title styling */
+  .podcast-card strong {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Genre styling */
+  .podcast-card medium {
+    font-size: 14px;
+  }
+  
+  /* Last Updated styling */
+  .podcast-card small {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  /* Show Description styling */
+  .podcast-card .card-footer sl-details {
+    margin-top: 8px;
+  }
+  
+  /* Rating container styling */
+  .podcast-card .card-footer sl-rating {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Custom heart icon for active state */
+  .podcast-card .card-footer sl-rating .sl-rating__symbol-active {
+    color: #ff4136;
+  }
+  
+  /* Add any additional styling here as needed */
+  

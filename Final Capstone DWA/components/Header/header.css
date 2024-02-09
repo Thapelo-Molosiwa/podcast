@@ -1,0 +1,32 @@
+.Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: whitesmoke; 
+  z-index: 1000; 
+  padding: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.LogoPic {
+  float: left; 
+}
+
+.Headddd {
+  position: relative;
+  top: 15px; 
+}
+
+.favs{
+  float:right;
+  position: relative;
+  bottom: 15px; 
+  right: 50px;
+}
+
+.Headddd h1 {
+  margin: 0;
+  font-size: 1.5rem; 
+  font-weight: bold; 
+}
